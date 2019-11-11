@@ -3,7 +3,7 @@ import puppeteer from 'puppeteer';
 const HASHTAG = 'streak';
 (async () => {
   const browser = await puppeteer.launch({
-    headless: false,
+    headless: true,
     ignoreHTTPSErrors: true,
   });
 
